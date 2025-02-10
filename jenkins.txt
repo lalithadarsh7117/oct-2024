@@ -1,0 +1,21 @@
+24/12
+
+command to build java job / project
+	mvn clean deploy 
+
+cmd to check jenkins in terminal	
+	on cd /var/lib/jenkins
+	
+cmd to check wether jenkin s service is running 
+	ps -ef | grep "jenkins"
+	
+to start or check status of jenkins
+	sudo systemctl start jenkins
+	sudo systemctl status jenkins
+	sudo systemctl stop jenkins
+	
+Command to create ssh key
+public/private 
+	ssh-keygen -t rsa
+cmd to check key saved
+	cd .ssh
